@@ -164,19 +164,3 @@ bool schedule(
     
     return false;
 }
-
-/*void printSchedule2(const DailySchedule& sched)
-{
-    int day = 0;
-    for(auto s : sched)
-    {
-        cout << "Day " << day << ": ";
-        for(auto nurse : s)
-        {
-            cout << nurse << " ";
-        }
-        cout << endl;
-        day++;
-    }
-    cout<<endl;
-}*/
